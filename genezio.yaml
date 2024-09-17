@@ -10,7 +10,7 @@ frontend:
             - npm run start
     sdk:
         language: ts
-    subdomain: angular-getting-started
-name: angular-getting-started
+    subdomain: angular-getting-started-2
+name: angular-getting-started-2
 region: us-east-1
 yamlVersion: 2
