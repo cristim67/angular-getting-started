@@ -1,16 +1,16 @@
-name: angular-getting-started
-region: us-east-1
-yamlVersion: 2
 frontend:
     path: .
     publish: dist/browser
-    sdk:
-        language: ts
     scripts:
+        build: npm run build
         deploy:
             - npm install
-        build: npm run build
         start:
             - npm install --silent
             - npm run start
+    sdk:
+        language: ts
     subdomain: angular-getting-started
+name: angular-getting-started
+region: us-east-1
+yamlVersion: 2
